@@ -1,0 +1,28 @@
+{{> header}}
+<h2>Adicionar Post</h2>
+
+<form method="POST" enctype="multipart/form-data">
+  <label>
+    Imagem:
+    <input type="file" name="photo" />
+  </label>
+  <br>
+  <label>
+    Título:
+    <input type="text" name="title" />
+  </label>
+  <br>
+  <label>
+    Corpo:
+    <textarea name="body"></textarea>
+  </label>
+  <br>
+  <label>
+  Tags:<small>(Separar as Tags por vírgula)</small>  
+  <input type="text" name="tags" />
+  </label>
+  <br>
+  <label>
+    <input type="submit" name="Salvar" />
+  </label>
+</form>
